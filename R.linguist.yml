@@ -1,0 +1,19 @@
+# .linguist.yml en la raíz del repo
+linguist:
+  # Especifica qué lenguajes detectar
+  detected: true
+  
+  # Fuerza ciertos archivos como un lenguaje específico
+  overrides:
+    "backend/**/*.py": Python
+    "requirements.txt": Python
+    "manage.py": Python
+  
+  # Ignora archivos de build
+  vendored: true
+  documentation: true
+  
+  # Lista de lenguajes a mostrar
+  languages:
+    - Java
+    - Python
